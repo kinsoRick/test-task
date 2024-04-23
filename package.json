@@ -1,0 +1,24 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kinsoRick/test-task.git",
+  "author": "masnaveev Kamil Albertovich kmasnaveev@gmail.com",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
