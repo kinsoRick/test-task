@@ -389,10 +389,14 @@ main {
   aspect-ratio: 16/9;
 }
 .slider-image img {
-  height: 650px;
   -webkit-user-select: none;
           user-select: none;
   -moz-user-select: none;
+}
+@media screen and (min-width: 1000px) {
+  .slider-image img {
+    height: 650px;
+  }
 }
 .slider-image.active {
   display: block;

@@ -437,9 +437,12 @@ main {
   aspect-ratio: 16/9;
 
   img {
-    height: 650px;
     user-select: none;
     -moz-user-select: none;
+
+    @media screen and (min-width: 1000px) {
+      height: 650px;
+    }
   }
   &.active {
     display: block;
