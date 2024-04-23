@@ -187,6 +187,11 @@ figure {
   min-height: 119px;
   background: #0f0f17;
 }
+@media screen and (max-width: 481px) {
+  .main-navbar {
+    width: calc(100% - 30px);
+  }
+}
 .main-navbar .navbar-top {
   padding-top: 30px !important;
   display: flex;
@@ -259,6 +264,11 @@ figure {
 
 .container {
   padding: 0 40px;
+}
+@media screen and (max-width: 481px) {
+  .container {
+    padding: 0 15px;
+  }
 }
 
 main {

@@ -210,6 +210,11 @@ figure {
   position: fixed;
   width: calc(100% - $container-padding * 2);
 
+  @media screen and (max-width: 481px) {
+  width: calc(100% - 15px * 2);
+    
+  }
+
   padding-bottom: 20px !important;
 
   display: flex;
@@ -305,6 +310,9 @@ figure {
 
 .container {
   padding: 0 $container-padding;
+  @media screen and (max-width: 481px) {
+    padding: 0 15px;
+  }
 }
 
 main {
@@ -590,8 +598,6 @@ main {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   overflow: auto;
-
-  
 
   .modal-content {
     border-radius: 20px;
